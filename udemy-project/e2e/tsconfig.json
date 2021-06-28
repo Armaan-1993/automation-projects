@@ -1,9 +1,26 @@
+// {
+//   "extends": "../../tsconfig.json",
+//   "compilerOptions": {
+//     "outDir": "../out-tsc/e2e",
+//     "module": "commonjs",
+//     "target": "es2018",
+//     "types": ["jasmine", "node"]
+//   }
+// }
+
 {
-  "extends": "../e2e/tsconfig.json",
   "compilerOptions": {
-    "outDir": "../out-tsc/e2e",
     "module": "commonjs",
+    "outDir": "../out-tsc/e2e",
+    "allowJs": true,
+    "checkJs": true,
+    "noEmit": true,
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
     "target": "es2018",
-    "types": ["jasmine", "node"]
+    "types": ["jasmine", "node"],
+    "moduleResolution": "node"
   }
 }

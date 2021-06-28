@@ -1,8 +1,20 @@
 {
+  "name": "udemy-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
   "devDependencies": {
-    "karma-jasmine": "^4.0.1"
+    "jasmine": "^2.8.0",
+    "karma-jasmine": "^4.0.1",
+    "protractor": "^7.0.0",
+    "typescript": "^4.3.4"
   },
   "dependencies": {
-    "@types/jasmine": "^3.7.7"
+    "@types/karma-jasmine": "^4.0.0"
   }
 }
