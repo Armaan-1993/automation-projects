@@ -12,4 +12,9 @@ describe("Test case to browse through free udemy courses and buy them", () => {
     browser.close();
     console.log("[Udemy Courses]");
   });
+  it("Test case to open the udemy page and buy all the free courses", async () => {
+    await browser.driver.manage().window().maximize();
+    let ec = ExpectedConditions;
+    await browser.get(browser.baseUrl);
+  });
 });
